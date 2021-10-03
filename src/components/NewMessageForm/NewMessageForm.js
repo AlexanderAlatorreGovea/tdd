@@ -4,7 +4,10 @@ const NewMessageForm = ({ onSend }) => {
   const [inputText, setInputText] = useState("");
 
   const handleTextChange = (event) => {
-    setInputText(event.target.value);
+    const {
+      target: { value },
+    } = event;
+    setInputText(value);
   };
 
   const handleSend = () => {

@@ -1,8 +1,8 @@
 import React from "react";
 import { render } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import NewMessageForm from "../components/NewMessageForm";
 
+import NewMessageForm from "../components/NewMessageForm";
 
 describe("<NewMessageForm />", () => {
   let getByTestId;
