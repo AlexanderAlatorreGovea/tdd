@@ -1,4 +1,5 @@
-React TDD App / Clean React Code∂
+React TDD App / Clean React Code Notes
+
 
 1. Use less brackets 
 2. Distribute app into components
